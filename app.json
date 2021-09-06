@@ -3,8 +3,8 @@
   "name": "Tecon AddOn ",
   "publisher": "TCN",
   "brief": "",
-  "description": "",
-  "version": "1.0.0.0",
+  "description": "Funcionalidad varias",
+  "version": "1.0.0.1",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
@@ -12,12 +12,12 @@
   "logo": "./Logo/Tecon.png",
   "capabilities": [],
   "dependencies": [
-    {"appId": "e0ab3bae-91ba-47b8-91eb-d2f374f24e62","name": "Tecon AddOn Comun","publisher": "TCN","version": "1.0.20210817.0"}
+    {"appId": "09e8e853-9a52-43c6-a954-1a4a69cd7cbc","name": "Tecon AddOn Comun","publisher": "TCN","version": "1.0.20210811.0"}
   ],
   "screenshots": [],
   "platform": "13.0.0.0",
   "application": "13.0.0.0",
-  "idRange": {"from": 50300,"to": 50350},
+  "idRange": {"from": 50600,"to": 50650},
   "runtime": "2.1",
   "target": "Extension",
   "showMyCode": true,
