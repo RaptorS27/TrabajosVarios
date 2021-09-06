@@ -1,4 +1,4 @@
-page 1002 "TCNPilas"
+page 50302 "TCNPilas"
 {
     Caption = 'Pendiente definir';
     PageType = CardPart;
@@ -24,13 +24,13 @@ page 1002 "TCNPilas"
 
                 actions
                 {
-                    action(Accion)
-                    {
-                        ApplicationArea = All;
-                        Caption = 'Pendiente definir';
-                        RunObject = Page TCNPagina;
-                        RunPageMode = View;
-                    }
+                    // action(Accion)
+                    // {
+                    //     ApplicationArea = All;
+                    //     Caption = 'Pendiente definir';
+                    //     RunObject = Page TCNPagina;
+                    //     RunPageMode = View;
+                    // }
                 }
             }
         }

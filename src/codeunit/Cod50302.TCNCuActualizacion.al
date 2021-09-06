@@ -1,4 +1,4 @@
-codeunit 1002 "TCNCuActualizacion"
+codeunit 50302 "TCNCuActualizacion"
 {
     Subtype = Upgrade;
     trigger OnCheckPreconditionsPerCompany()

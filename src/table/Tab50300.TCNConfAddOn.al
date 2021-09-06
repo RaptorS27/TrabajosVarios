@@ -1,4 +1,4 @@
-table 1000 "TCNConfAddOn"
+table 50300 "TCNConfAddOn"
 {
     fields
     {

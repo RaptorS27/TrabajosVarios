@@ -1,4 +1,4 @@
-codeunit 1000 "TCNFunciones"
+codeunit 50300 "TCNFunciones"
 {
     trigger OnRun()
     var

@@ -1,4 +1,4 @@
-page 1001 TCNConfAddOn
+page 50301 TCNConfAddOn
 {
 
     PageType = Card;
