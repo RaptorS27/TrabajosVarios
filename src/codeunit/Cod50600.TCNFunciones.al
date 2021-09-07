@@ -6,6 +6,7 @@ codeunit 50600 "TCNFunciones"
         rlXmlSpecialInterestNode: record "XML Buffer";
         rplCustomerList: Report "Customer - List";
         culXMLBufferWriter: Codeunit "XML Buffer Writer";
+        clError: Label 'No se ha encontrado el informe';
         xlXmlParameter: Text;
     begin
         xlXmlParameter := REPORT.RUNREQUESTPAGE(pNumberReport);
@@ -15,7 +16,7 @@ codeunit 50600 "TCNFunciones"
             if rlXmlSpecialInterestNode.GET(rlXMLBuffer."Parent Entry No.") then begin
                 rplCustomerList.Execute(xlXmlParameter);
             end else begin
-                Error('No se ha encobtrado el informe');
+                Error(clError);
             end;
             rlXMLBuffer.DeleteAll();
         end;
