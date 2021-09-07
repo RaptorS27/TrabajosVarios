@@ -23,9 +23,9 @@ page 50600 "TCNPruebas"
                     rlAllObjWithCaption.SetRange("Object Type", rlAllObjWithCaption."Object Type"::Report);
                     rlAllObjWithCaption.FindSet();
                     pglAllObjectswithCaption.SetRecord(rlAllObjWithCaption);
-                    if pglAllObjectswithCaption.RunModal() = Action::LookupOK then begin
-                        culTCNFunciones.PruebaReportToXmlF(rlAllObjWithCaption."Object ID");
-                    end;
+                    // if pglAllObjectswithCaption.RunModal() = Action::LookupOK then begin
+                    culTCNFunciones.PruebaReportToXmlF(101);
+                    // end;
                 end;
             }
         }
