@@ -18,8 +18,8 @@
   "platform": "13.0.0.0",
   "application": "13.0.0.0",
   "idRange": {"from": 50600,"to": 50650},
-  "runtime": "2.1",
-  "target": "Extension",
+  "runtime": "4.0",
+  "target": "OnPrem",
   "showMyCode": true,
   "features": ["NoImplicitWith"]
 }
